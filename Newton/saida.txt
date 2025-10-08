@@ -1,0 +1,3 @@
+iteracao: 1
+iteracao: 2
+Resultado: 1.4563579125868154
