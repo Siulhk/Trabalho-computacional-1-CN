@@ -29,6 +29,7 @@ p = float(entry[3])
 it = float(entry[4])
 fx = f(xo)
 
+arquivo.write("Metodo Newton\n")
 if math.fabs(fx) > p:
     k = 1
     fxlinha = fl(xo)
@@ -41,6 +42,7 @@ if math.fabs(fx) > p:
         fxlinha = fl(x0)
         x1 = x0 - (fx/fxlinha)
         fx = f(x1)
+        arquivo.write("Raiz aproximada: " + str(x1) + "\n")
     raiz = x1
     arquivo.write("Resultado: " + str(raiz) + "\n")
 else:
